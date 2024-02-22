@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container {
+  flex: 1;
+}
+.navbar {
+  height: 4rem;
+  background-color: white;
+}
+.fa-compass {
+  color: #f3424d;
+  font-size: 2rem;
+}
+.nav-link {
+  color: #222222 !important;
+}
+.explore{
+  font-size: x-large;
+  opacity: 0.9;
+}
+/* Footer */
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+  padding: 1rem;
+}
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.f-info-socials i {
+  margin: 1rem;
+  font-size: 1.3rem;
+ text-decoration: none ;
+ cursor: pointer;
+ color: black;
+}
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info {
+  background-color: #ebebeb;
+  height: 8.2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: space-evenly;
+  text-align: center;
+}
+.f-info-brand {
+  display: flex;
+  justify-content: center;
+}
+
+/* card */
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100%;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+.listing-link {
+  text-decoration: none;
+}
+.card-img-overlay {
+  opacity: 0;
+}
+.card-img-overlay:hover {
+  opacity: 0.3;
+  background-color: white;
+}
+
+.btn-bnb {
+  background-color: #f3424d !important;
+  border: none !important;
+}
+
+/* show page */
+.show-img {
+  height: 30vh;
+}
+.edit-img {
+  height: 50vh;
+}
+.btns {
+  display: flex;
+}
+#map {
+ width: 100%;
+ height: 60vh;
+ 
+
+}
+.review{
+ width: 50% !important;
+}
